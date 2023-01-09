@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>MyPortfolio</title>
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        JS From Zero To Hero 2023
+      </div>
+      <div class="burger-menu">
+        <input class="menu-toggle" type="checkbox">
+        <label class="menu-btn" for="menu-toggle">
+          <span></span>
+        </label>
+        <ul class="menubox">
+          <li><a class="menu-item" href="#home">Главная страница</a></li>
+          <li><a class="menu-item" href="#works">Работы</a></li>
+          <li><a class="menu-item" href="#contact">Контакты</a></li>
+        </ul>
+      </div>
+    </header>
+    <div class="container-header" id="home">
+      <p class="name-person">Андрей Юрецкий<br><span class="profession-person">Web developer</span></p>
+      <p class="profession-info">Учусь сейчас в Молодечненском торгово-экономическом колледже (МТЭК) на "Оператора ЭВМ", сейчас решил для себя что колледж дал мне основы которые нужны и я решил выбрать для себя язык программирования, я много думал, и моим первым языком стал C#, после я перестал его изучение поскольку данный язык оказался для меня не слишком интересным, и дальше я выбрал Web разработку, начал изучать с октября прошлого года и мне нравится эта специальность. <br> (К сожалению была только фотка с 2019 года)</p>
+      <img src="images/myphoto.png" alt="My Photo" class="person">
+    </div>
+    <div class="container">
+      <main class="info">
+        <div class="section">
+          <img src="images/stack.png" alt="graphic">
+          <p class="info-header">Стек</p>
+          <p class="text-header">Знания HTML, CSS, немного JavaScript и Node.JS <br> работал с Gulp, WebPack, SCSS.</p>
+        </div>
+        <div class="section">
+          <img src="images/about-me.png" alt="browser">
+          <p class="info-header">Обо мне</p>
+          <p class="text-header">Родился 15 фервался 2005, в г. Молодечно <br> на данный момент мне 17 лет. <br></p>
+        </div>
+        <div class="section">
+          <img src="images/purpose.png" alt="startup">
+          <p class="info-header">Цель в жизни</p>
+          <p class="text-header">Построить карьеру Web разработчика, <br> а также попробовать все тонкости <br> жизни Web разработчика.</p>
+        </div>
+      </main>
+    </div>
+    <div class="container-portfolio" id="works">
+      <p>Мои работы</p>
+      <div class="portfolio">
+        <img srcset="Piroll.png 350w,
+                      images/Piroll.png 2500w"
+              src="images/Piroll.png" alt="Clothes">
+        <p>Piroll</p>
+        <img srcset="AirPods.png 350w,
+                      images/AirPods.png 2500w"
+              src="images/AirPods.png" alt="AirPods">
+        <p>AirPods</p>
+      </div>
+    </div>
+    <footer>
+      <div class="contacts-message">
+        <p>Контакты</p>
+        <p>Хотите узнать больше или просто поболтать? <br> Добро пожаловать!</p>
+        <button type="button">+375 29 88 600 63</button>
+      </div>
+      <div class="social-network" id="contact">
+        <a href="https://t.me/notedad"><img src="images/telegram-icon.png" alt="in"></a>
+        <a href="https://www.instagram.com/_andreyyuretskiy_/"><img src="images/inst-icon.png" alt="instagram"></a>
+        <a href="https://vk.com/andreyyuretskiy"><img src="images/vk-icon.png" alt="be"></a>
+      </div>
+      <div>      
+        <p class="link-social-network">Можете подписаться на меня в <br> Telegram, Instagram, VK</p>
+      </div>
+    </footer>
+  </body>
+</html>
